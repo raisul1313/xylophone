@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
           title: const Text('Xylophone'),
         ),
         body: SafeArea(
-          child: Container(),
+          child: Container(
+            child: Text('hello'),
+          ),
         ),
       ),
     );
